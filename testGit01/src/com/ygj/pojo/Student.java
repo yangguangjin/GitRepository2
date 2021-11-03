@@ -10,7 +10,7 @@ public class Student implements Serializable {
     private String name;
     private String address;
     private Integer age;
-
+    private String job;
     @Override
     public String toString() {
         return "Student{" +
