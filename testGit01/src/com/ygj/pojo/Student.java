@@ -9,6 +9,7 @@ import java.io.Serializable;
 public class Student implements Serializable {
     private String name;
     private String address;
+    private String age;
 
     @Override
     public String toString() {
